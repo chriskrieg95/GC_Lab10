@@ -8,6 +8,8 @@ public class CircleApp {
 		Scanner scnr = new Scanner(System.in);
 
 		String cont = "yes";
+		int counter = 0;
+		
 
 		while (cont.toLowerCase().startsWith("y")) {
 			// your code should start here!
@@ -20,9 +22,11 @@ public class CircleApp {
 			// your logic should stop here if it doesn't need to be included in the loop
 			System.out.println("Do you want to continue (yes/no)");
 			cont = scnr.nextLine();
+			counter++;
 		}
 
 		//This is our indication that the program has ended
+		System.out.println("You have entered " + counter + " circles.");
 		System.out.println("Goodbye!");
 		
 

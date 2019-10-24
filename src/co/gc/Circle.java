@@ -17,13 +17,11 @@ public class Circle {
 	}
 	
 	public double getCircumference() {
-		circumference = Math.PI * (2 * radius);
-		return circumference;
+		return circumference = Math.PI * (2 * radius);
 	}
 	
 	public double getArea() {
-		area = Math.PI * Math.pow(radius, 2);
-		return area;
+		return area = Math.PI * Math.pow(radius, 2);
 	}
 	
 	private static String formatNumber(double x) {
